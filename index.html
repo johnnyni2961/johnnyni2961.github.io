@@ -1,0 +1,66 @@
+<!--
+Scroll Animation: Johnny Ni
+Date-of-Creation: 7/12/20
+Date-of-Last-Edit: 7/24/20
+Used for: Website Portfolio
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+        <link href="./design.css" rel="stylesheet">
+        <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+        <script src="./main.js" async></script>
+        <script src="./typewriter.js" async></script>
+    </head>
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#about-me">About Me</a>
+      <a href="#">My Work</a>
+      <a href="#">Personal Life</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <!-- Use any element to open the sidenav -->
+    <span onclick="openNav()" id="nav-symbol">&equiv;</span>
+
+<div id="main">
+    <body>
+        <section class="content">
+          <h1>
+  <a class="typewrite" data-period="2000" data-type='[ "Welcome! My name is Johnny Ni!", "I have a passion for coding!", "I Love to COLLABORATE with others!", "I Love guitar and travelling!"]'>
+    <span class="wrap"></span></a>
+          </h1>
+            <p id="catch-phrase">Innovation Starts Here.</p>
+              <b>Hello! My name is Johnny Ni, a passionate coder and innovater! Check out my portfolio below!</b>
+        </section>
+
+        <div id="intro-box" data-aos="fade-up" id="about-me">Who am I?
+          <p class="intro-bio">A bit about myself~ I am a high school student that loves computer programming as well as
+            playing the guitar, competitive swimming, speech and debate, and last but not least, traveling!</p>
+          <p class="intro-bio">I specialize in website development, creating projects/games, cyber security (Linux OS), and
+            collaborative programming!</p>
+            <img class="intro-image" src="https://makingmusicmag.com/wp-content/uploads/2019/02/guitar-3283649_1280.jpg" alt="guitar">
+        </div>
+
+        <div class="box" data-aos="fade-right">More stuff</div>
+
+        <div class="box" data-aos="fade-left">Project 1</div>
+
+        <div class="box" data-aos="fade-down">Project 2</div>
+
+        <div class="box" data-aos="slide-up">Project 3</div>
+
+        <div class="box" data-aos="zoom-out">Wrap Up</div>
+
+        <section class="content" id="contact">
+            <p>Thank you! Hope to see you again!</p>
+        </section>
+        <script>
+          AOS.init();
+        </script>
+    </body>
+  </div>
+</html>
