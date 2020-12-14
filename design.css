@@ -11,16 +11,16 @@ html, body {
 }
 
 .box {
-    width: 700px;
-    height: 500px;
+    max-width: 825px;
     background: #333;
-    margin: 10px auto;
+    margin: 45px auto;
     color: #f2f2f2;
     font-size: 2em;
     text-align: center;
-    padding-top: 75px;
+    padding: 20px;
     border-radius: 2px;
     font-family: "Raleway", arial;
+    box-shadow: 0 4px 8px white;
 }
 
 #intro-box {
@@ -39,9 +39,8 @@ html, body {
 .content {
     height: 100vh;
     text-align: center;
-    background: #f2f2f2;
     padding-top: 30vh;
-    color: #888;
+    color: white;
     font-family: "Raleway", arial;
 }
 
@@ -129,20 +128,40 @@ html, body {
 }
 
 .intro-bio {
-  font-size: 15px;
-  padding: 20px;
+  font-size: 18px;
+  padding: 15px;
+  display: inline-block;
 }
 
-.intro-image {
-  position: relative;
-  width: 65%;
-  margin: 15px;
-  transition: 0.5s ease;
-  border-radius: 20px;
+.tech {
+  font-size: 18px;
+  padding: 15px;
+  display: inline-block;
 }
 
-.intro-image:hover {
-  opacity: 0.3;
+.entrepreneurship {
+  font-size: 18px;
+  padding: 15px;
+  display: inline-block;
+
+}
+
+.involvements {
+  font-size: 18px;
+  padding: 15px;
+  display: inline-block;
+}
+
+.personal {
+  font-size: 18px;
+  padding: 15px;
+  display: inline-block;
+}
+
+.quotes {
+  font-weight: 900;
+  text-align: center;
+  font-family: monospace;
 }
 
 .fade-description {
@@ -161,10 +180,6 @@ html, body {
   transition: all 0.3s ease-in-out 0s;
 }
 
-.image-description {
-  color: #fff;
-  font-size: 0.5em;
-}
 
 .content-overlay {
   background: rgba(0, 0, 0, 0.7);
@@ -181,3 +196,113 @@ html, body {
   transition: all 0.4s ease-in-out 0s;
 }
 
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#navimg {
+  height: 80px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+#facephoto {
+  display: inline-block;
+  width: 35%;
+  border-radius: 25px;
+}
+
+#scrolldown {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  font-size: 17px;
+}
+
+#languages {
+  width: 50%;
+  text-align: center;
+}
+
+.next-languages {
+  width: 30%;
+  padding-top: 30px;
+  padding-right: 10px;
+  padding-left: 10px;
+  display: inline-block;
+}
+
+.floatLeft {
+  float: left;
+  padding-left: 40px;
+}
+
+.floatRight {
+  float: right;
+  padding-right: 40px;
+}
+
+#middletext {
+  vertical-align: middle;
+  text-align: center;
+  max-width: 40%;
+  display: inline-block;
+}
+
+#righttext {
+  vertical-align: middle;
+  text-align: center;
+  max-width: 70%;
+  display: inline-block;
+  float: left;
+}
+
+#lefttext {
+  padding: 30px;
+  vertical-align: middle;
+  text-align: center;
+  max-width: 70%;
+  display: inline-block;
+  float: right;
+}
+
+#medias {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 145px;
+  length: 145px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+#email {
+  font-weight: 900;
+  color: white;
+  font-size: 20px;
+  bottom: 50px;
+}
+
+#email:link {
+  text-decoration: none;
+}
+
+#email:hover {
+  text-decoration: overline underline;
+}
