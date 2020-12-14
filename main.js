@@ -67,7 +67,7 @@ var TxtType = function(el, toRotate, period) {
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
   document.getElementById("main").style.marginLeft = "250px";
-  document.body.style.backgroundColor = "rgba(0,0,0,0.7)";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.9)";
   document.body.style.transition = "all 2s";
 }
 
