@@ -158,6 +158,12 @@ html, body {
   display: inline-block;
 }
 
+.what-is-next {
+  font-size: 18px;
+  padding: 15px;
+  display: inline-block;
+}
+
 .quotes {
   font-weight: 900;
   text-align: center;
